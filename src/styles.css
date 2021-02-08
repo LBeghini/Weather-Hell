@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+ font-family: 'Open Sans', sans-serif;
+}
+
+body { 
+    /* background-color: linear-gradient(#560410, #8C000E, #D31522, #FF4417, #FF6E00, #FFA600); */
+    background-image: url('./assets/images/stratocumulus.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}   

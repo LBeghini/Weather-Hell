@@ -1,0 +1,30 @@
+<div class="glass" *ngIf="!error && weather">
+    <h1>{{weather.location.name}}</h1>
+    <h2>{{weather.location.localtime}}</h2>
+    <div class="row data">
+        <div class="col d-flex align-items-center justify-content-center lateral-line spacing">
+            <img src="{{icon}}" class="icon">
+        </div>
+        <div class="col spacing">
+            <p class="temperature">{{weather.current.temperature}}</p>
+            <small>°C</small>
+            <p class="description">{{weather.current.weather_descriptions[0]}}</p>
+        </div>
+    </div>
+    <div class="row align-items-end justify-content-end">
+        <div class="col">
+            <p>Observation time: <span>{{weather.current.observation_time}}</span></p>
+        </div>
+    </div>
+</div>
+
+<div class="glass" *ngIf="error">
+    <div class="row data">
+        <div class="col align-items-center justify-content-center">
+            <img src="../../assets/icons/svg/ghost.svg" class="icon icon-error">
+        </div>
+        <div class="col max-width">
+            <h1 class="error">Ops, it seems like you are searching for a ghost city.</h1>
+        </div>
+    </div>
+</div>

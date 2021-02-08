@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+    color: rgb(235, 235, 235);
+}
+
+h1 {
+    font-weight: bold;
+    margin: 40px 0;
+}

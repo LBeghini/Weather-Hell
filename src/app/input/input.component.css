@@ -1,0 +1,8 @@
+.input-group-text:hover {
+    cursor: pointer;
+    background-color: rgb(158, 158, 158);
+}
+
+.form-control {
+    min-width: 600px;
+}
