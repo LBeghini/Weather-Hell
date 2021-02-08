@@ -44,3 +44,7 @@ The icons used in the application were taken from [Flaticon](https://www.flatico
 
 ### API
 The API utilized to retrieve the weather data was [Weatherstack](https://weatherstack.com/) with a free account
+
+## :balance_scale: License
+
+[MIT License](https://github.com/LBeghini/Weather-Hell/blob/main/LICENSE)
