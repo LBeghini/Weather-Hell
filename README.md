@@ -1,27 +1,46 @@
-# WeatherHell
+> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+# :cloud: Weather Hell
+## About
+Weather Hell is an application made for an internship selection process. The goal was to create a view to display data obtained from an API.
 
-## Development server
+## Technologies
+- HTML
+- CSS
+- Bootstrap
+- Angular
+- TypeScript
+- Node 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Requirements
 
-## Code scaffolding
+### Node
+To develop this application the Node version used was 12.0.0, because of its compatibility with Angular that requires npm version 6.  
+To change the Node version, use the [nvm](https://github.com/coreybutler/nvm-windows)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## How to Run
 
-## Build
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## How to Use
 
-## Running unit tests
+On the input, type the name of the city you want to know about the weather.  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Information displayed: 
+- City Name
+- Current date and time
+- Icon that represents the weather
+- Temperature given in °C
+- A small description of the temperature
+- The time when the data was collected
 
-## Running end-to-end tests
+## Resources
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Mock Screens
+To develop this project, at first the screens were modeled and the final application followed the template, made on Balsamiq.  
+Click [here](https://balsamiq.cloud/sez01jx/px6yqxd/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D) to check the template
+### Icons
+The icons used in the application were taken from [Flaticon](https://www.flaticon.com/)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### API
+The API utilized to retrieve the weather data was [Weatherstack](https://weatherstack.com/) with a free account
