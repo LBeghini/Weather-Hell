@@ -7,7 +7,8 @@ export class Weather {
     public current: {
         observation_time: string,
         temperature: number,
-        weather_descriptions: Array<string>
+        weather_descriptions: Array<string>,
+        is_day: string
     },
     public location: {
       name: string,
@@ -28,7 +29,6 @@ export class WeatherComponent implements OnInit {
   weather: Weather | null = null;
   description: string = ""; 
   icon: string = "";
-  day: boolean = true;
   time:number = 0;
   error = false;
 
@@ -54,15 +54,9 @@ export class WeatherComponent implements OnInit {
           this.weather = data;
           if (this.weather !== null) {
             this.description = this.weather.current.weather_descriptions[0].toLowerCase();
-            this.time = parseInt(this.weather.location.localtime.slice(-5, -3));
-            if( this.time > 18 || this.time < 6){
-              this.day = false;
-            }else{
-              this.day = true;
-            }
   
             if (this.description.includes("sunny") || this.description.includes("clear")) {
-              if (this.day){
+              if (this.weather.current.is_day == "yes"){
                 this.icon = "../../assets/icons/svg/001-sun.svg"
               }else{
                 this.icon = "../../assets/icons/svg/006-crescent moon.svg"
