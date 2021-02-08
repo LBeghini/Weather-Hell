@@ -1,27 +1,34 @@
-# WeatherHell
+> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
+# :cloud: Weather Hell
+## About
+Weather Hell is an application made for an internship selection process. The goal was to create a view to display data obtained from an API.
 
-## Development server
+## Technologies
+- HTML
+- CSS
+- Bootstrap
+- Angular
+- TypeScript
+- Node 
+
+## Requirements
+
+### Node
+To develop this application the Node version used was 12.0.0, because of its compatibility with Angular that requires npm version 6.
+To change the Node version, use the [nvm](https://github.com/coreybutler/nvm-windows)
+
+## How to Run
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Resources
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Mock Screens
+To develop this project, at first the screens were modeled and the final application followed the template
 
-## Build
+- [Balsamiq screens template](https://balsamiq.cloud/sez01jx/px6yqxd/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Icons
+The icons used in the application were taken from [Flaticon](https://www.flaticon.com/)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
