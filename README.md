@@ -38,8 +38,22 @@ On the input, type the name of the city you want to know about the weather.
 ## Resources
 
 ### Mock Screens
-To develop this project, at first the screens were modeled and the final application followed the template, made on Balsamiq.  
-Click [here](https://balsamiq.cloud/sez01jx/px6yqxd/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D) to check the template
+To develop this project, at first the screens were modeled and the final application followed the template, made on [Balsamiq](https://balsamiq.cloud/).  
+
+#### Empty page
+<img src="mock-screens/empty.png" width="500px"/>
+
+#### Fulfilled page
+<img src="mock-screens/fulfilled.png" width="500px"/>
+
+#### API data
+<img src="mock-screens/api.png" width="500px"/>
+
+#### Error page
+<img src="mock-screens/error.png" width="500px"/>
+
+###
+
 ### Icons
 The icons used in the application were taken from [Flaticon](https://www.flaticon.com/)
 
