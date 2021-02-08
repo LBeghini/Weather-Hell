@@ -20,7 +20,8 @@ To change the Node version, use the [nvm](https://github.com/coreybutler/nvm-win
 
 ## How to Run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
+Run `ng serve` for a dev server. Navigate to http://localhost:4200/.  
+The app will automatically reload if you change any of the source files
 
 ## How to Use
 
