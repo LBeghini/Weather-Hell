@@ -15,20 +15,32 @@ Weather Hell is an application made for an internship selection process. The goa
 ## Requirements
 
 ### Node
-To develop this application the Node version used was 12.0.0, because of its compatibility with Angular that requires npm version 6.
+To develop this application the Node version used was 12.0.0, because of its compatibility with Angular that requires npm version 6.  
 To change the Node version, use the [nvm](https://github.com/coreybutler/nvm-windows)
 
 ## How to Run
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
+
+## How to Use
+
+On the input, type the name of the city you want to know about the weather.  
+
+### Information displayed: 
+- City Name
+- Current date and time
+- Icon that represents the weather
+- Temperature given in °C
+- A small description of the temperature
+- The time when the data was collected
 
 ## Resources
 
 ### Mock Screens
-To develop this project, at first the screens were modeled and the final application followed the template
-
-- [Balsamiq screens template](https://balsamiq.cloud/sez01jx/px6yqxd/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
-
+To develop this project, at first the screens were modeled and the final application followed the template, made on Balsamiq.  
+Click [here](https://balsamiq.cloud/sez01jx/px6yqxd/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D) to check the template
 ### Icons
 The icons used in the application were taken from [Flaticon](https://www.flaticon.com/)
 
+### API
+The API utilized to retrieve the weather data was [Weatherstack](https://weatherstack.com/) with a free account
