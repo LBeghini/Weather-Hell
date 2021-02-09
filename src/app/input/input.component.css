@@ -3,6 +3,9 @@
     background-color: rgb(158, 158, 158);
 }
 
-.form-control {
-    min-width: 600px;
+@media screen and (min-width: 767px) {
+    .form-control {
+        min-width: 600px;
+    }
 }
+
