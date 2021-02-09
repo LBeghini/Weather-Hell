@@ -35,6 +35,10 @@ On the input, type the name of the city you want to know about the weather.
 - A small description of the temperature
 - The time when the data was collected
 
+### Data persistency
+
+The cities searched are persisted on the localstorage for easy later access, and will appear under the search input.
+
 ## Resources
 
 ### Mock Screens
