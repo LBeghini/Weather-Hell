@@ -1,6 +1,6 @@
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
-# :cloud: Weather Hell
+# :cloud: Weather Hell?
 ## About
 Weather Hell is an application made for an internship selection process. The goal was to create a view to display data obtained from an API.
 
@@ -34,6 +34,10 @@ On the input, type the name of the city you want to know about the weather.
 - Temperature given in °C
 - A small description of the temperature
 - The time when the data was collected
+
+### Data persistency
+
+The cities searched are persisted on the localstorage for easy later access, and will appear under the search input.
 
 ## Resources
 
