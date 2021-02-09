@@ -1,5 +1,8 @@
 <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="type your city name" aria-label="city" name="city" (keyup)="handleKeyUp($event)" #city>
+    <input list="cities" class="form-control" placeholder="type your city name" aria-label="city" name="city" (keyup)="handleKeyUp($event)" #city>
+    <datalist id="cities">
+        <option *ngFor="let city of cities" value={{city}}>
+    </datalist>
     <span class="input-group-text" id="basic-addon1" (click)="handleClick(city.value)"><img src="../../assets/icons/magnifying-glass.png" width="20px"/></span>
 </div>
   
